@@ -1,11 +1,11 @@
 print ("linear search algorithm")
-def linearsearch(list , n ,x):
-    for i in range(0 , n):
+def linearsearch(list ,x):
+    for i in list:
         if (i == x):
             return  i
     return - 1
 list = [2,3,4,8,6,35]
-x= 1
+x = int (input ("enter the nmber:"))
 n =len(list )
 result = linearsearch(list ,n,x)
 if (result ==-1):
