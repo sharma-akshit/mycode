@@ -9,6 +9,6 @@ x = int (input ("enter the nmber:"))
 n =len(list )
 result = linearsearch(list ,n,x)
 if (result ==-1):
-    print("element not found")
+    print("element not found you ca try again")
 else:
     print("element found at index : ",result)
